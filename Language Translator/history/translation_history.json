@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1785679979953,
+    "timestamp": "2026-08-02T19:42:59",
+    "source_lang": "English",
+    "target_lang": "English",
+    "source_text": "hi",
+    "translated_text": "hi",
+    "model_used": "No translation required (same language)",
+    "favorite": false
+  },
+  {
+    "id": 1785680017728,
+    "timestamp": "2026-08-02T19:43:37",
+    "source_lang": "English",
+    "target_lang": "English",
+    "source_text": "thank you",
+    "translated_text": "thank you",
+    "model_used": "No translation required (same language)",
+    "favorite": false
+  },
+  {
+    "id": 1785685247540,
+    "timestamp": "2026-08-02T21:10:47",
+    "source_lang": "English",
+    "target_lang": "Spanish",
+    "source_text": "hello",
+    "translated_text": "Hola.",
+    "model_used": "Helsinki-NLP/opus-mt-en-es",
+    "favorite": false
+  },
+  {
+    "id": 1785685543901,
+    "timestamp": "2026-08-02T21:15:43",
+    "source_lang": "English",
+    "target_lang": "Spanish",
+    "source_text": "hello",
+    "translated_text": "Hola.",
+    "model_used": "Helsinki-NLP/opus-mt-en-es",
+    "favorite": false
+  },
+  {
+    "id": 1785685550244,
+    "timestamp": "2026-08-02T21:15:50",
+    "source_lang": "English",
+    "target_lang": "Spanish",
+    "source_text": "how r u",
+    "translated_text": "¿Cómo r u",
+    "model_used": "Helsinki-NLP/opus-mt-en-es",
+    "favorite": false
+  },
+  {
+    "id": 1785685558802,
+    "timestamp": "2026-08-02T21:15:58",
+    "source_lang": "English",
+    "target_lang": "Spanish",
+    "source_text": "thank you",
+    "translated_text": "Gracias.",
+    "model_used": "Helsinki-NLP/opus-mt-en-es",
+    "favorite": false
+  },
+  {
+    "id": 1785685567103,
+    "timestamp": "2026-08-02T21:16:07",
+    "source_lang": "English",
+    "target_lang": "Spanish",
+    "source_text": "hala madrid",
+    "translated_text": "hala madrid",
+    "model_used": "Helsinki-NLP/opus-mt-en-es",
+    "favorite": false
+  },
+  {
+    "id": 1785685576289,
+    "timestamp": "2026-08-02T21:16:16",
+    "source_lang": "English",
+    "target_lang": "Spanish",
+    "source_text": "real madrid",
+    "translated_text": "real madrid",
+    "model_used": "Helsinki-NLP/opus-mt-en-es",
+    "favorite": false
+  },
+  {
+    "id": 1785685584486,
+    "timestamp": "2026-08-02T21:16:24",
+    "source_lang": "English",
+    "target_lang": "Spanish",
+    "source_text": "fuck barcelona",
+    "translated_text": "mierda barcelona",
+    "model_used": "Helsinki-NLP/opus-mt-en-es",
+    "favorite": false
+  },
+  {
+    "id": 1785685593019,
+    "timestamp": "2026-08-02T21:16:33",
+    "source_lang": "English",
+    "target_lang": "Spanish",
+    "source_text": "fuck you",
+    "translated_text": "Vete a la mierda.",
+    "model_used": "Helsinki-NLP/opus-mt-en-es",
+    "favorite": false
+  },
+  {
+    "id": 1785685713728,
+    "timestamp": "2026-08-02T21:18:33",
+    "source_lang": "English",
+    "target_lang": "Spanish",
+    "source_text": "hi how  are you . im good",
+    "translated_text": "Hola, ¿cómo estás?",
+    "model_used": "Helsinki-NLP/opus-mt-en-es",
+    "favorite": false
+  },
+  {
+    "id": 1785685725617,
+    "timestamp": "2026-08-02T21:18:45",
+    "source_lang": "English",
+    "target_lang": "Spanish",
+    "source_text": "hi you look good",
+    "translated_text": "Hola, te ves bien.",
+    "model_used": "Helsinki-NLP/opus-mt-en-es",
+    "favorite": false
+  }
+]

@@ -1,0 +1,11 @@
+streamlit
+torch
+transformers
+sentencepiece
+tokenizers
+sacremoses
+langdetect
+fpdf2
+protobuf
+numpy
+huggingface-hub
