@@ -1,174 +1,172 @@
-# 🏠 House Price Predictor
+# 🤖 AI Project Collection
 
-An end-to-end **Machine Learning web application** that predicts residential house prices in **Hyderabad, Telangana, India**, based on property attributes such as location, area, BHK, floor number, and property age.
+A curated collection of Artificial Intelligence and Machine Learning projects built using **Python 3.14.6**. This repository demonstrates practical AI applications, machine learning models, data analysis, and modern web deployment using **Streamlit**.
 
-Built as a complete, production-quality AI/ML portfolio project — from data generation and preprocessing, through model training and evaluation, to a polished interactive Streamlit dashboard.
-
----
-
-## 📌 Project Overview
-
-House Price Predictor uses a supervised regression model trained on Hyderabad residential property data to estimate market prices. It compares multiple ML algorithms, automatically selects the best-performing one, and serves predictions through a modern, responsive Streamlit UI.
-
-The app also compares the predicted price against the selected locality's average price and offers a simple investment classification (**Good Investment / Average Investment / Premium Property**).
-
-
-## 🔗 Live Demo
-
-🚀 **Try it now:** [hyderabad-house-price-ai.streamlit.app](https://hyderabad-house-price-ai.streamlit.app/)
-
-Enter property details like location, area, BHK, and floor to get an instant AI-powered price estimate for residential properties across 20 major Hyderabad localities.
+Each project is developed to strengthen problem-solving skills, understand real-world AI workflows, and build a professional portfolio for AI/ML internships.
 
 ---
 
-## ✨ Features
+## 🚀 About
 
-- 🧹 Full data cleaning pipeline — duplicate removal, missing value handling, outlier detection (IQR method)
-- 🛠️ Feature engineering — floor ratio, label encoding, one-hot encoding of localities
-- 🤖 Trains and compares **4–5 regression models**: Linear Regression, Decision Tree, Random Forest, Gradient Boosting, (optionally XGBoost)
-- 🏆 Automatic best-model selection based on **R² Score**
-- 📊 Model evaluation with **MAE, MSE, RMSE, R²**
-- 📈 Rich Matplotlib/Seaborn visualizations (distribution, correlation heatmap, feature importance, locality pricing, etc.)
-- 💻 Modern Streamlit dashboard with custom CSS, cards, metrics, and a dark sidebar
-- 💰 Indian Rupee formatted output (e.g. `₹ 82,50,000`)
-- 📍 Locality price comparison and investment suggestion
-- 🔄 Reset button and full input validation / exception handling
+This repository contains multiple AI and Machine Learning projects covering various domains, including:
 
----
+- 🧠 Machine Learning
+- 🤖 Natural Language Processing (NLP)
+- 📊 Data Analysis & Visualization
+- 📈 Predictive Analytics
+- 🌐 Streamlit Web Applications
+- 🔍 Model Training & Evaluation
 
-## 🧰 Technology Used
-
-| Layer | Technology |
-|---|---|
-| Language | Python 3.14.6 |
-| ML / Data | Scikit-learn, Pandas, NumPy, Joblib |
-| Visualization | Matplotlib, Seaborn |
-| Frontend | Streamlit |
-| IDE | VS Code |
+Every project is organized in its own folder with:
+- ✅ Complete source code
+- ✅ Professional README
+- ✅ Installation guide
+- ✅ Screenshots
+- ✅ Requirements file
+- ✅ Deployment instructions
 
 ---
 
-## 🐍 Python Version
+# 📂 Projects
 
-This project targets **Python 3.14.6**. The codebase uses only standard, version-stable syntax, so it also runs correctly on Python 3.10+ if 3.14.6 is not yet available on your system.
+| Project | Description | Status |
+|----------|-------------|--------|
+| 🏠 House Price Predictor | Predicts Hyderabad house prices using Machine Learning. | ✅ Completed |
+| 🌍 AI Language Translator | Translate text between multiple languages using Hugging Face Transformers. | ✅ Completed |
+---
+
+# 🛠️ Tech Stack
+
+### Programming Language
+
+- Python 3.14.6
+
+### Machine Learning
+
+- Scikit-learn
+- XGBoost
+- TensorFlow
+- PyTorch
+
+### Data Processing
+
+- Pandas
+- NumPy
+
+### Data Visualization
+
+- Matplotlib
+- Seaborn
+- Plotly
+
+### Natural Language Processing
+
+- Hugging Face Transformers
+- NLTK
+- spaCy
+
+### Deployment
+
+- Streamlit
+
+### Utilities
+
+- Joblib
+- Pickle
+- Git
+- GitHub
 
 ---
 
-## ⚙️ Installation
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/<your-username>/House-Price-Predictor.git
-cd House-Price-Predictor
-
-# 2. Create a virtual environment (recommended)
-python -m venv venv
-venv\Scripts\activate        # Windows
-source venv/bin/activate     # macOS / Linux
-
-# 3. Install dependencies
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ How to Run
-
-### 1. Generate the dataset (already included, but can be regenerated)
-```bash
-python dataset/generate_dataset.py
-```
-
-### 2. Train the model
-```bash
-python train_model.py
-```
-This will:
-- Clean and preprocess the dataset
-- Train and compare all models
-- Save the best model to `model.pkl`
-- Save evaluation charts to `images/`
-- Save the cleaned dataset to `dataset/cleaned_dataset.csv`
-
-### 3. Launch the Streamlit app
-```bash
-streamlit run app.py
-```
-Then open the local URL shown in your terminal (usually `http://localhost:8501`).
-
----
-
-## 📁 Folder Structure
+# 📁 Repository Structure
 
 ```
-House-Price-Predictor/
+AI-Project-Collection/
 │
-├── app.py                          # Streamlit dashboard
-├── train_model.py                  # ML training pipeline
-├── utils.py                        # Shared helper functions
-├── model.pkl                       # Saved best model (generated)
-├── requirements.txt
 ├── README.md
-├── .gitignore
 │
-├── dataset/
-│   ├── generate_dataset.py         # Synthetic dataset generator
-│   ├── hyderabad_house_prices.csv  # Raw dataset
-│   └── cleaned_dataset.csv         # Cleaned dataset (generated)
+├── House-Price-Predictor/
+│   ├── README.md
+│   ├── app.py
+│   └── ...
 │
-├── notebooks/
-│   └── EDA.ipynb                   # Exploratory Data Analysis notebook
+├── Language-Translator/
+│   ├── README.md
+│   ├── app.py
+│   └── ...
 │
-├── images/                         # Generated charts (after training)
+├── Spam-Email-Classifier/
 │
-└── assets/                         # Screenshots / logos
+├── Sentiment-Analysis/
+│
+├── Movie-Recommendation-System/
+│
+├── Fake-News-Detection/
+│
+└── ...
 ```
 
 ---
 
-## 📸 Screenshots
->### Dashboard
-![Dashboard](assets/dashboard.png)
-### Prediction Result
-![Prediction Result](assets/prediction_result.png)
+# ✨ Features
+
+- Modern AI projects
+- Clean and organized code
+- Professional documentation
+- Streamlit web applications
+- Machine Learning model training
+- Interactive user interfaces
+- Data visualization
+- Easy deployment
+- Beginner-friendly project structure
 
 ---
 
-## 📊 Model Performance (on synthetic dataset)
+# 🎯 Goals
 
-| Model | R² Score | RMSE |
-|---|---|---|
-| **Gradient Boosting** ✅ | **0.9569** | ₹10,05,349 |
-| Random Forest | 0.9463 | ₹11,21,844 |
-| Linear Regression | 0.9224 | ₹13,48,167 |
-| Decision Tree | 0.8962 | ₹15,59,595 |
+This repository is built to:
 
-*(Your exact numbers may vary slightly depending on random seeds, library versions, and whether you use a real dataset.)*
+- Practice Artificial Intelligence concepts
+- Improve Machine Learning skills
+- Build real-world projects
+- Create a professional GitHub portfolio
+- Prepare for AI/ML internships
+- Learn modern AI frameworks
 
 ---
 
-## 🚀 Future Improvements
+# 📌 Future Projects
 
-- Integrate a real, verified Hyderabad real-estate dataset (e.g. from MagicBricks / 99acres, with proper licensing)
-- Add hyperparameter tuning (GridSearchCV / Optuna)
-- Add map-based locality selection
-- Deploy to Streamlit Community Cloud / Render / HuggingFace Spaces
-- Add authentication and price-history tracking
-- Add SHAP-based model explainability
+- 🧠 RAG Chatbot
+- 🎙️ Speech Recognition
+- 🖼️ AI Image Caption Generator
+- 🎥 Video Classification
+- 🧬 Disease Prediction
+- 📈 Stock Price Prediction
+- 🤖 Personal AI Assistant
+- 🧾 OCR Document Scanner
+
+---
+
+# 🌐 Connect With Me
+
+**Syed Omer Farooq**
+
+📧 Email: omerfarooq41986@gmail.com
+
+
+🐙 GitHub: https://github.com/0merfaroooq
+
+---
+
+# ⭐ Support
+
+If you found these projects helpful, consider giving this repository a **⭐ Star**.
+
+It motivates me to continue building and sharing more AI projects.
 
 ---
 
 ## 📄 License
 
-This project is released under the **MIT License** — free to use, modify, and distribute with attribution.
-
----
-
-## 👨‍💻 Author
-
-**House Price Predictor Project**
-Built as part of an AI/ML Internship portfolio.
-
----
-
-⭐ If you find this project useful, consider giving it a star on GitHub!
+This repository is licensed under the **MIT License**.
