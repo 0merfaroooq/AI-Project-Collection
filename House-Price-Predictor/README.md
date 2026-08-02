@@ -13,6 +13,13 @@ House Price Predictor uses a supervised regression model trained on Hyderabad re
 The app also compares the predicted price against the selected locality's average price and offers a simple investment classification (**Good Investment / Average Investment / Premium Property**).
 
 ---
+## 🔗 Live Demo
+
+🚀 **Try it now:** [hyderabad-house-price-ai.streamlit.app](https://hyderabad-house-price-ai.streamlit.app/)
+
+Enter property details like location, area, BHK, and floor to get an instant AI-powered price estimate for residential properties across 20 major Hyderabad localities.
+
+---
 
 ## ✨ Features
 
