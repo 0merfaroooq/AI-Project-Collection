@@ -131,6 +131,8 @@ def load_cleaned_data():
 
 bundle = load_model_bundle()
 df = load_cleaned_data()
+st.write("Bundle:", bundle)
+st.write("DataFrame:", df)
 
 
 # ------------------------------------------------------------------
