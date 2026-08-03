@@ -28,15 +28,8 @@ from utils import (
     investment_suggestion,
 )
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-MODEL_PATH = os.path.join(BASE_DIR, "model.pkl")
-CLEANED_DATA_PATH = os.path.join(BASE_DIR, "dataset", "cleaned_dataset.csv")
-st.write("Current Working Directory:", os.getcwd())
-st.write("Base Directory:", BASE_DIR)
-st.write("Model Path:", MODEL_PATH)
-st.write("Model Exists:", os.path.exists(MODEL_PATH))
-st.write("Dataset Exists:", os.path.exists(CLEANED_DATA_PATH))
+MODEL_PATH = "model.pkl"
+CLEANED_DATA_PATH = "dataset/cleaned_dataset.csv"
 
 # ------------------------------------------------------------------
 # Page configuration
@@ -131,8 +124,6 @@ def load_cleaned_data():
 
 bundle = load_model_bundle()
 df = load_cleaned_data()
-st.write("Bundle:", bundle)
-st.write("DataFrame:", df)
 
 
 # ------------------------------------------------------------------
