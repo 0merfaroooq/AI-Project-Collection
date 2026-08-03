@@ -120,9 +120,9 @@ House-Price-Predictor/
 
 ## 📸 Screenshots
 >### Dashboard
-![Dashboard](assets/dashboard.png)
+![Dashboard](assets/dashboard.png.png)
 ### Prediction Result
-![Prediction Result](assets/prediction_result.png)
+![Prediction Result](assets/prediction_result.png.png)
 
 ---
 
